@@ -9,7 +9,7 @@ jobs:
     runs-on: 
      - ubuntu 20.04
   steps:
-   - name: "-Check-"          
+   - name: "Check"          
      uses: actions/checkout@v3
-   - name: "-HelloWord-"
+   - name: "HelloWord"
      uses: ./.github/actions/hello

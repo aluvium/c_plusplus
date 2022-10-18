@@ -3,7 +3,7 @@ RUN set -eux; \
     apt-get update && apt-get install cmake -y \
     g++; \
     rm  -fr /var/lib/apt/lists/*
-ADD /raw /app
+COPY /raw /app
 RUN mkdir -p /app/build
 WORKDIR /app/build
 RUN cmake ../../app

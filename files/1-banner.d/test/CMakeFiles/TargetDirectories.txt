@@ -1,0 +1,3 @@
+/home/ubuntu/c++/files/1-banner.d/test/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/c++/files/1-banner.d/test/CMakeFiles/edit_cache.dir
+/home/ubuntu/c++/files/1-banner.d/test/CMakeFiles/Banner.dir

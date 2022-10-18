@@ -1,7 +1,7 @@
-FROM debian:stable-slim
+FROM debian:stable
 RUN apt-get update && apt-get install cmake -y
-ADD ./files/ /files
-RUN mkdir build;
+COPY ./files/ /files
+RUN mkdir -p /files/build;
 WORKDIR /files/build
 RUN cmake ../../files; 
 RUN cmake --build .

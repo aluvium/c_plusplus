@@ -3,7 +3,7 @@ RUN set -eux; \
     apt-get update && apt-get install cmake -y \
     g++; \
     rm  -fr /var/lib/apt/lists/*
-ADD . /app
+ADD ./files/1-banner.d /app
 RUN mkdir /app/build
 WORKDIR /app/build
 RUN cmake ../../app

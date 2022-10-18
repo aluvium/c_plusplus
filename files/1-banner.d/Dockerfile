@@ -8,4 +8,5 @@ RUN mkdir /app/build
 WORKDIR /app/build
 RUN cmake ../../app
 RUN cmake --build .
-ENTRYPOINT ["/lib64/ld-linux-x86-64.so.2", "./Banner"]
+ENTRYPOINT ["sh", "-c", "ls"]
+#ENTRYPOINT ["/lib64/ld-linux-x86-64.so.2", "./Banner"]

@@ -3,10 +3,9 @@ RUN set -eux; \
     apt-get update && apt-get install cmake -y \
     g++; \
     rm  -fr /var/lib/apt/lists/*
-ADD /files/1-banner.d/ /app
-RUN mkdir -p /app/build
+ADD . /app
+RUN mkdir /app/build
 WORKDIR /app/build
 RUN cmake ../../app
 RUN cmake --build .
 ENTRYPOINT ["sh", "-c", "ls -R1"]
-#ENTRYPOINT ["/lib64/ld-linux-x86-64.so.2", "./Banner"]

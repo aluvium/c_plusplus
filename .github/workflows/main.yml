@@ -15,5 +15,5 @@ jobs:
     steps:      
      - name: "Checkout Code"
        uses: actions/checkout@v3
-     - name: "Build"
-       uses: ./
+     - name: "Build 1"
+       uses: ./files/1-banner.d

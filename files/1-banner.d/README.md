@@ -1,4 +1,4 @@
-# Content
+## Content  
  Show simple banner of application
 ## Usage
 ##### Copy repository

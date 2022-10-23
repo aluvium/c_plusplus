@@ -38,6 +38,7 @@ jobs:
      - name: "Checkout Code"
        uses: actions/checkout@v3
      - name: "Build 3"
-       uses: ./files/3-simon.d <<< 69
+       uses: ./files/3-simon.d
+         with: $0=34
        env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

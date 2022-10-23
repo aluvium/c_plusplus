@@ -1,0 +1,3 @@
+/home/aegir/Documents/manuals/C/basics/CH2/kotek.d/build/CMakeFiles/rebuild_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/kotek.d/build/CMakeFiles/edit_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/kotek.d/build/CMakeFiles/Kitty.dir

@@ -1,0 +1,3 @@
+/home/aegir/Documents/manuals/C/basics/CH2/2-simon.d/build/CMakeFiles/rebuild_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/2-simon.d/build/CMakeFiles/edit_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/2-simon.d/build/CMakeFiles/Simon.dir

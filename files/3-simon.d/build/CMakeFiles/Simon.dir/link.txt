@@ -1,0 +1,1 @@
+/sbin/c++ -rdynamic CMakeFiles/Simon.dir/simon.cxx.o -o Simon 

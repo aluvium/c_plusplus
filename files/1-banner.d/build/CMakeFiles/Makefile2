@@ -47,7 +47,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ubuntu/c++/files/1-banner.d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/c++/files/1-banner.d/test
+CMAKE_BINARY_DIR = /home/ubuntu/c++/files/1-banner.d/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/Banner.dir/clean
 CMakeFiles/Banner.dir/all:
 	$(MAKE) -f CMakeFiles/Banner.dir/build.make CMakeFiles/Banner.dir/depend
 	$(MAKE) -f CMakeFiles/Banner.dir/build.make CMakeFiles/Banner.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/c++/files/1-banner.d/test/CMakeFiles --progress-num=1,2 "Built target Banner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/c++/files/1-banner.d/build/CMakeFiles --progress-num=1,2 "Built target Banner"
 .PHONY : CMakeFiles/Banner.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Banner.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/c++/files/1-banner.d/test/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/c++/files/1-banner.d/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Banner.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/c++/files/1-banner.d/test/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/c++/files/1-banner.d/build/CMakeFiles 0
 .PHONY : CMakeFiles/Banner.dir/rule
 
 # Convenience name for target.

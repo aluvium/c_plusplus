@@ -4,4 +4,4 @@ RUN set -eux; \
     g++; \
     rm  -fr /var/lib/apt/lists/*
 ADD ./ /app
-CMD ["./files/3-simon.d/build/Simon", "5"]
+CMD ./files/3-simon.d/build/Simon <<< 69

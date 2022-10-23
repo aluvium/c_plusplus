@@ -4,4 +4,4 @@ RUN set -eux; \
     g++; \
     rm  -fr /var/lib/apt/lists/*
 ADD ./ /app
-ENTRYPOINT ["/lib64/ld-linux-x86-64.so.2", "./files/2-simon.d/build/Simon" <<< 5]
+CMD ["/lib64/ld-linux-x86-64.so.2", "./files/2-simon.d/build/Simon <<< 5"]

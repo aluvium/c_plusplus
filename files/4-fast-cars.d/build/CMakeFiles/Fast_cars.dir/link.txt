@@ -1,0 +1,1 @@
+/usr/lib/ccache/bin/c++ -rdynamic CMakeFiles/Fast_cars.dir/fast-cars.cxx.o -o Fast_cars 

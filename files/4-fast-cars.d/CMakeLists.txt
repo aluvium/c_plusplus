@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(Fast_cars)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+add_executable(Fast_cars fast-cars.cxx)

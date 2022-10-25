@@ -1,0 +1,3 @@
+/home/aegir/Documents/manuals/C/basics/CH2/5-conv-inch-cm/build/CMakeFiles/rebuild_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/5-conv-inch-cm/build/CMakeFiles/edit_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/5-conv-inch-cm/build/CMakeFiles/conv-inch-cm.dir

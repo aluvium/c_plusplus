@@ -10,6 +10,6 @@
 
 ## Usage
 ##### Copy repository
-      git clone https://github.com/aluvium/c_plusplus.git
+      $ git clone https://github.com/aluvium/c_plusplus.git
 ##### Run file
-      files/FOLDER_NAME/build/FILE_NAME
+      $ files/FOLDER_NAME/build/FILE_NAME

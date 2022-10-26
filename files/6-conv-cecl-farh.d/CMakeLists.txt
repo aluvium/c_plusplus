@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.0)
+project(Convert-celc-farhen)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+add_executable(Convert-celc-farhen conv-celc-farh.cxx)

@@ -1,0 +1,1 @@
+/sbin/c++ -rdynamic CMakeFiles/Convert-celc-farhen.dir/conv-celc-farh.cxx.o -o Convert-celc-farhen 

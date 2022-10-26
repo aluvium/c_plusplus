@@ -41,3 +41,26 @@ jobs:
        uses: ./files/3-simon.d
        env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-4:    
+    runs-on: 
+     - ubuntu-latest
+    steps:      
+     - name: "Checkout Code"
+       uses: actions/checkout@v3
+     - name: "Build 4"
+       uses: ./files/4-fast-cars.d
+       env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-5:    
+    runs-on: 
+     - ubuntu-latest
+    steps:      
+     - name: "Checkout Code"
+       uses: actions/checkout@v3
+     - name: "Build 5"
+       uses: ./files/5-conv-inch-cm.d
+       env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+

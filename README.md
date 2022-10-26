@@ -5,7 +5,7 @@
 * [__3-Simon__](https://github.com/aluvium/c_plusplus/tree/master/files/3-simon.d)  --> Processing data in / out
 * [__4-Fast-cars.d__](https://github.com/aluvium/c_plusplus/tree/master/files/4-fast-cars.d)
 * [__5-Conv-inch-cm__](https://github.com/aluvium/c_plusplus/tree/master/files/5-conv-inch-cm) --> Inches to centimeters converter
-* [__6-Conv-celc-farh__]()
+* [__6-Conv-celc-farh__](https://github.com/aluvium/c_plusplus/tree/master/files/6-conv-celc-farh.d) --> Celcius to Farhenheit converter
 - - -
 
 ## Usage

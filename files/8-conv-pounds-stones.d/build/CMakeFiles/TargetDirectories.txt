@@ -1,0 +1,3 @@
+/home/aegir/Documents/manuals/C/basics/CH2/carrots.d/build/CMakeFiles/rebuild_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/carrots.d/build/CMakeFiles/edit_cache.dir
+/home/aegir/Documents/manuals/C/basics/CH2/carrots.d/build/CMakeFiles/Carrots.dir

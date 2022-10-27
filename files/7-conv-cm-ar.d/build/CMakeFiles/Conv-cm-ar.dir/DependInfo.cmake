@@ -1,14 +1,15 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ubuntu/c++/files/7-conv-cm-ar.d/conv-cm-ar.cxx" "/home/ubuntu/c++/files/7-conv-cm-ar.d/build/CMakeFiles/Conv-cm-ar.dir/conv-cm-ar.cxx.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aegir/Documents/manuals/C/basics/CH2/7-conv-cm-ar.d/conv-cm-ar.cxx" "CMakeFiles/Conv-cm-ar.dir/conv-cm-ar.cxx.o" "gcc" "CMakeFiles/Conv-cm-ar.dir/conv-cm-ar.cxx.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # Targets to which this target links.

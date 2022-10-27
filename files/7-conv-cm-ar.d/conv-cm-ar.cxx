@@ -1,4 +1,4 @@
-//converter cm2 na ary
+//converter sq.cm to are
 
 #include <iostream>
 int cmtoar(int cm2);
@@ -7,10 +7,10 @@ int main()
 {
 	using namespace std;
 	int cm2;
-	cout << " Wpisz wartosc w cm2: ";
+	cout << "Convert squere centimetre to are: ";
 	cin >> cm2;
 	int ar = cmtoar(cm2);
-	cout << "wynosi: " << ar << " ar/arow" << endl;
+	cout << "is " << ar << " are/s" << endl;
 	cin.get();
 	cin.get();
 	return(0);

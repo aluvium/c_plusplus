@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Conv-cm-ar.dir/conv-cm-ar.cxx.o"
-  "CMakeFiles/Conv-cm-ar.dir/conv-cm-ar.cxx.o.d"
   "Conv-cm-ar"
   "Conv-cm-ar.pdb"
 )

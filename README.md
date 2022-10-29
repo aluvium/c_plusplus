@@ -6,6 +6,11 @@
 * [__4-Fast-cars__](https://github.com/aluvium/c_plusplus/tree/master/files/4-fast-cars.d)
 * [__5-Conv-inch-cm__](https://github.com/aluvium/c_plusplus/tree/master/files/5-conv-inch-cm.d) --> Inches to Centimeters converter
 * [__6-Conv-celc-farh__](https://github.com/aluvium/c_plusplus/tree/master/files/6-conv-celc-farh.d) --> Celcius to Farhenheit converter
+* [__7-Conv-cm-are__](https://github.com/aluvium/c_plusplus/tree/master/files/7-conv-cm-ar.d) --> Centimeters to ares converter
+* [__8-Conv-pounds-stones__](https://github.com/aluvium/c_plusplus/tree/master/files/8-conv-pounds-stones.d) --> Pound to stones converter
+
+
+
 - - -
 
 ## Usage

@@ -1,0 +1,3 @@
+/ubuntu/CH2/9-conv-years-to-months.d/build/CMakeFiles/rebuild_cache.dir
+/ubuntu/CH2/9-conv-years-to-months.d/build/CMakeFiles/edit_cache.dir
+/ubuntu/CH2/9-conv-years-to-months.d/build/CMakeFiles/Conv-ytm.dir

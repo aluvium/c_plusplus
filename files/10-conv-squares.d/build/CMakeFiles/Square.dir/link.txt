@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Square.dir/square.cxx.o  -o Square 

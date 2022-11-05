@@ -34,8 +34,5 @@ jobs:
     - name: "test-1"
       run: |
            pwd
-           whoami
-           cat /etc/passwd
-           ls -l
            chmod +x ./Banner
            ./Banner

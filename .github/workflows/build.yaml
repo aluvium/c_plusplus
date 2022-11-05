@@ -37,4 +37,5 @@ jobs:
            whoami
            cat /etc/passwd
            ls -l
+           chmod +x ./Banner
            ./Banner

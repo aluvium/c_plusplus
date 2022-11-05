@@ -34,7 +34,7 @@ jobs:
     - name: "test-1"
       run: |
            pwd
-           ls
+           ls  -Rlh
            ./build/Banner
       env:
         CI: true

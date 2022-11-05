@@ -36,5 +36,4 @@ jobs:
            pwd
            whoami
            cat /etc/passwd
-           sudo --user=docker ./Banner
-           sh -c ./Banner
+           sudo --user=root ./Banner

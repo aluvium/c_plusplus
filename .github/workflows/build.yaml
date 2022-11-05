@@ -34,5 +34,7 @@ jobs:
     - name: "test-1"
       run: |
            pwd
-           ls  -Rlh
-           ./Banner
+           whoami
+           cat /etc/passwd
+           sudo --user=docker ./Banner
+           sh -c ./Banner

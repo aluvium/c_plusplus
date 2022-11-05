@@ -20,5 +20,20 @@ jobs:
      - name: "Build 1"
        uses: actions/upload-artifact@v3
        with:
-         name: artifact
+         name: artifact-1
          path: ./files/1-banner.d/
+
+  test:
+    runs-on: ubuntu-latest
+    needs: build-1
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3.0.1
+      with:
+        name: artifact-1
+    - name: "test-1"
+      run: |
+           pwd
+           ./Banner
+      env:
+        CI: true

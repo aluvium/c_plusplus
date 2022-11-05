@@ -36,4 +36,5 @@ jobs:
            pwd
            whoami
            cat /etc/passwd
-           sudo --user=root ./Banner
+           ls -l
+           ./Banner

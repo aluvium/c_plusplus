@@ -21,7 +21,7 @@ jobs:
        uses: actions/upload-artifact@v3
        with:
          name: artifact-1
-         path: ./files/1-banner.d/
+         path: ./files/1-banner.d/build/
 
   test:
     runs-on: ubuntu-latest
@@ -35,6 +35,4 @@ jobs:
       run: |
            pwd
            ls  -Rlh
-           ./build/Banner
-      env:
-        CI: true
+           ./Banner

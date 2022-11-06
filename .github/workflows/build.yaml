@@ -53,5 +53,5 @@ jobs:
         username: ${{github.actor}}  
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
-        repository: aluvium/github-actions-for-packages/c_plusplus
+        repository: aluvium/c_plusplus/
         tag_with_sha: true

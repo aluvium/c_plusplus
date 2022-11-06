@@ -56,5 +56,6 @@ jobs:
         #  password: ${{secrets.GITHUB_TOKEN}}
         repository: aluvium/c_plusplus
         tag_with_sha: true
+        tags: aluvium/cplus:latest
         push: true
         

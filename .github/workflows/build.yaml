@@ -14,6 +14,7 @@ jobs:
   build-1:    
     runs-on: 
      - ubuntu-latest
+    name: "Build Artifact"
     steps:      
      - name: "Checkout Code"
        uses: actions/checkout@v3

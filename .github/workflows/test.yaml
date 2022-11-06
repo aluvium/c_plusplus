@@ -1,0 +1,26 @@
+name: "ci test"
+on:
+  workflow_dispatch:
+  push:
+    branches:
+     - master
+     - ci
+  pull_request:
+    branches:
+     - master
+     - ci
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    needs: build-1
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/download-artifact@v3.0.1
+      with:
+        name: artifact-1
+    - name: "test-1"
+      run: |
+           pwd
+           chmod +x ./Banner
+           ./Banner

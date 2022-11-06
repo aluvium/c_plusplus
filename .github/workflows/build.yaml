@@ -56,4 +56,3 @@ jobs:
         registry: docker.pkg.github.com
         repository: aluvium/github-actions-for-packages/c_plusplus
         tag_with_sha: true
-

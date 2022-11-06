@@ -51,8 +51,6 @@ jobs:
     - name: "Build Docker Image"
       uses: docker/build-push-action@v3
       with:
-        username: ${{github.actor}}  
-        password: ${{secrets.GITHUB_TOKEN}}
-        registry: docker.pkg.github.com
-        repository: aluvium/c_plusplus/c_plusplus
-        tag_with_sha: true
+          push: true
+          tags: user/app:latest
+        

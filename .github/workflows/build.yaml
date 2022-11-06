@@ -51,6 +51,3 @@ jobs:
         name: artifact-1
     - name: "Build Docker Image"
       uses: docker/build-push-action@v3
-      with:
-        username: ${{github.actor}}
-        tag_with_sha: true

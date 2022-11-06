@@ -1,4 +1,4 @@
-name: "ci build"
+name: "ci/cd to docker image"
 on:
   workflow_dispatch:
   push:

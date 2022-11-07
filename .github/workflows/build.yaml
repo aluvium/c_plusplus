@@ -1,4 +1,4 @@
-name: "ci build"
+name: "ci/cd to docker image"
 on:
   workflow_dispatch:
   push:
@@ -14,6 +14,7 @@ jobs:
   build-1:    
     runs-on: 
      - ubuntu-latest
+    name: "Build Artifact"
     steps:      
      - name: "Checkout Code"
        uses: actions/checkout@v3
@@ -22,17 +23,31 @@ jobs:
        with:
          name: artifact-1
          path: ./files/1-banner.d/build/
-
   test:
     runs-on: ubuntu-latest
+    name: "Test Artifact"
     needs: build-1
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/download-artifact@v3.0.1
+    - name: "Download Builded Artifact"
+      uses: actions/download-artifact@v3.0.1
       with:
         name: artifact-1
-    - name: "test-1"
+    - name: "Tests-1"
       run: |
            pwd
            chmod +x ./Banner
            ./Banner
+
+  docker-img:
+    runs-on: ubuntu-latest
+    needs: test
+    name: "Docker IMG Builder"
+    steps:
+    - uses: actions/checkout@v3
+    - name: "Download Builded, Tested Artifact"
+      uses: actions/download-artifact@v3.0.1
+      with:
+        name: artifact-1
+    - name: "Build Docker Image"
+      uses: docker/build-push-action@v3

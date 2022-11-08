@@ -1,0 +1,2 @@
+#define Floatingpoint_VERSION_MAJOR @Floatingpoint_VERSION_MAJOR@
+#define Floatingpoint_VERSION_MINOR @Floatingpoint_VERSION_MINOR@

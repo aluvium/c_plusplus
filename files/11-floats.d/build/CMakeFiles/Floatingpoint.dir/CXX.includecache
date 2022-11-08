@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/c++/files/11-floats.d/floatingpoint.cxx
+iostream
+-
+FloatingpointConfig.h
+/home/ubuntu/c++/files/11-floats.d/FloatingpointConfig.h
+
+FloatingpointConfig.h
+

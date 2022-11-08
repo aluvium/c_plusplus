@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Configure CMake
-      run: cmake -B ./files/1-banner.d/ -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
+      run: cmake -B ./files/1-banner.d -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}}
 
     - name: Build
       # Build your program with the given configuration

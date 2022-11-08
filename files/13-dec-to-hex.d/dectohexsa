@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main()
+{
+	using namespace std;
+	int decimal;
+	cout << "Enter a decimal number: ";
+	cin >> decimal;
+	int hexal = decimal;
+	cout << hex;
+	cout << "This is: 0x" << hexal << " in hexadecimal" << endl;
+	cin.get();
+	cin.get();
+	return 0;
+}

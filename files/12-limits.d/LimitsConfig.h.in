@@ -1,0 +1,2 @@
+#define Limits_VERSION_MAJOR @Limits_VERSION_MAJOR@
+#define Limits_VERSION_MINOR @Limits_VERSION_MINOR@

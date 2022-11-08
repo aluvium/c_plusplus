@@ -1,10 +1,14 @@
 #include <iostream>
 #include <climits>
+#include "LimitsConfig.h"
 #define INT_MAX 3245
 
 int main()
 {
 	using namespace std;
+	cout << "Version:" << Limits_VERSION_MAJOR << "."
+                  << Limits_VERSION_MINOR << "\n\n" << endl ;
+
 	int n_int = INT_MAX;
 	short n_short = SHRT_MAX;
 	long n_long = LONG_MAX;

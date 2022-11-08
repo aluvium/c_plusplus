@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/c++/files/12-limits.d/limits.cxx
+iostream
+-
+climits
+-
+LimitsConfig.h
+/home/ubuntu/c++/files/12-limits.d/LimitsConfig.h
+
+LimitsConfig.h
+

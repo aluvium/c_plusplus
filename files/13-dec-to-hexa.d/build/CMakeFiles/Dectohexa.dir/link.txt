@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Dectohexa.dir/dectohexa.cxx.o  -o Dectohexa 

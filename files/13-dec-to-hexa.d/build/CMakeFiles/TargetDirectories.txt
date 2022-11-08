@@ -1,0 +1,3 @@
+/home/ubuntu/c++/files/13-dec-to-hexa.d/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/c++/files/13-dec-to-hexa.d/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/c++/files/13-dec-to-hexa.d/build/CMakeFiles/Dectohexa.dir

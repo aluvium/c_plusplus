@@ -1,0 +1,2 @@
+#define Dectohexa_VERSION_MAJOR @Dectohexa_VERSION_MAJOR@
+#define Dectohexa_VERSION_MINOR @Dectohexa_VERSION_MINOR@

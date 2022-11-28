@@ -18,7 +18,7 @@ Put my old small projects into one place.
 * [__13-Dec-to-hexa.__](https://github.com/aluvium/c_plusplus/tree/master/files/13-dec-to-hexa.d) --> Decimal to hexadecimal 
 * [__14-Passwd.__](https://github.com/aluvium/c_plusplus/blob/master/files/14-agentcode.d/agentcode.cxx) --> passwd
 * [__15-Lbs-to-pounds.__](https://github.com/aluvium/c_plusplus/blob/master/files/15-conv-pounds-stone.d/conv-lbs-pounds.cxx) --> Lbs to stone converter
-* [__16-floats.__](https://github.com/aluvium/c_plusplus/blob/master/files/16-conv-inch-feet.d/conv-inch-feet.cxx) --> Inches to feets converter
+* [__16-Inch-to-feet.__](https://github.com/aluvium/c_plusplus/blob/master/files/16-conv-inch-feet.d/conv-inch-feet.cxx) --> Inches to feets converter
 
 - - -
 

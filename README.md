@@ -13,7 +13,12 @@ Put my old small projects into one place.
 * [__8-Conv-pounds-stones__](https://github.com/aluvium/c_plusplus/tree/master/files/8-conv-pounds-stones.d) --> Pound to stones converter
 * [__9-Conv-years-to-mounts__](https://github.com/aluvium/c_plusplus/tree/master/files/9-conv-years-to-months.d) --> Years to months converter
 * [__10-Conv-squares__](https://github.com/aluvium/c_plusplus/tree/master/files/10-conv-squares.d) --> Years to months converter
-* [__11-floats.__](https://github.com/aluvium/c_plusplus/tree/code/files/11-floats.d) --> Float ranges
+* [__11-Floats.__](https://github.com/aluvium/c_plusplus/tree/code/files/11-floats.d) --> Float ranges
+* [__12-Limits.__](https://github.com/aluvium/c_plusplus/tree/master/files/12-limits.d) --> Define limits of integers
+* [__13-Dec-to-hexa.__](https://github.com/aluvium/c_plusplus/tree/master/files/13-dec-to-hexa.d) --> Decimal to hexadecimal 
+* [__14-Passwd.__](https://github.com/aluvium/c_plusplus/blob/master/files/14-agentcode.d/agentcode.cxx) --> passwd
+* [__15-Lbs-to-pounds.__](https://github.com/aluvium/c_plusplus/blob/master/files/15-conv-pounds-stone.d/conv-lbs-pounds.cxx) --> Lbs to stone converter
+* [__16-floats.__](https://github.com/aluvium/c_plusplus/blob/master/files/16-conv-inch-feet.d/conv-inch-feet.cxx) --> Inches to feets converter
 
 - - -
 
